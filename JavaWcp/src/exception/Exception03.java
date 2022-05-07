@@ -3,7 +3,7 @@ package exception;
 public class Exception03 {
 	 public static void main(String[] args) {
 	        try {
-	            Exception03.division(100, 2);
+	            Exception03.division(100, 0);
 	        } catch (ArithmeticException e) {
 	            System.out.println("ArithmeticException例外が発生");
 	        } catch (IllegalArgumentException e) {
